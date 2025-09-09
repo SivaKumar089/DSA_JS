@@ -1,0 +1,12 @@
+Big-O Notation Basics
+
+Big-O tells us how fast an algorithm grows as input size increases.
+
+O(1) → Constant time → Always takes same time (independent of input size).
+Example: Accessing arr[0].
+
+O(n) → Linear time → Time grows in proportion to input size.
+Example: Looping through an array once.
+
+O(n²) → Quadratic time → Time grows proportional to square of input size.
+Example: Nested loops (checking all pairs in an array).
