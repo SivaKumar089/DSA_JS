@@ -9,3 +9,5 @@ Day 2: Big-O notation basics (O(1), O(n), O(n²)).
 
  Day 3: Linear search & Binary search in JS.
  📝 Problems: Search element in sorted array.
+
+ Day 4: Array problems – rotate array, reverse array in place.
