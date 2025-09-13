@@ -11,3 +11,8 @@ Day 2: Big-O notation basics (O(1), O(n), O(n²)).
  📝 Problems: Search element in sorted array.
 
  Day 4: Array problems – rotate array, reverse array in place.
+
+Day 5: Two-pointer technique basics.
+ 📝 Problems: Pair with target sum.
+
+Day 6: Array problems – move zeros, merge sorted arrays.
