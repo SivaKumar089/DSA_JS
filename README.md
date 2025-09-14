@@ -16,3 +16,5 @@ Day 5: Two-pointer technique basics.
  📝 Problems: Pair with target sum.
 
 Day 6: Array problems – move zeros, merge sorted arrays.
+
+Day 8: String basics – reverse, palindrome.
