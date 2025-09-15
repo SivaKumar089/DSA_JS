@@ -18,3 +18,5 @@ Day 5: Two-pointer technique basics.
 Day 6: Array problems – move zeros, merge sorted arrays.
 
 Day 8: String basics – reverse, palindrome.
+
+Day 9: Count characters, check anagram using JS Map.
