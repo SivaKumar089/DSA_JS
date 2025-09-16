@@ -1,0 +1,5 @@
+| Feature            | Substring              | Subsequence            |
+| ------------------ | ---------------------- | ---------------------- |
+| Continuity         | Must be continuous     | Can skip characters    |
+| Example (`abc`)    | `"ab"`, `"bc"`         | `"ac"`, `"b"`, `"abc"` |
+| Count (length `n`) | `n*(n+1)/2` substrings | `2^n` subsequences     |
