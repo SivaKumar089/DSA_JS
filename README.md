@@ -24,3 +24,6 @@ Day 9: Count characters, check anagram using JS Map.
 Day 10: Substrings & subsequences basics. 
 
 Day 11: String problems – longest word, count vowels.
+
+Day 12: Sliding window intro.
+ 📝 Problems: Longest substring without repeating characters.
