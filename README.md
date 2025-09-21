@@ -31,3 +31,7 @@ Day 12: Sliding window intro.
 Day 13: String problems – valid palindrome II, string compression. 
 
 Day 15: Intro to recursion – factorial, Fibonacci.
+
+Day 16: Reverse string & array using recursion.
+
+Day 17: Power function, sum of digits (recursive).
