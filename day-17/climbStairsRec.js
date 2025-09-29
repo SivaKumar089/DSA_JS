@@ -4,4 +4,4 @@ function climbStairsRec(n) {
   return climbStairsRec(n - 1) + climbStairsRec(n - 2);
 }
 
-console.log(climbStairsRec(5)); // Output: 8
+console.log(climbStairsRec(5));

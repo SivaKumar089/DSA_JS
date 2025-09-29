@@ -12,7 +12,7 @@ function validPalindrome(s) {
     right = s.length - 1;
   while (left < right) {
     if (s[left] !== s[right]) {
-      // skip left OR skip right
+    
       return (
         isPalindrome(s, left + 1, right) || isPalindrome(s, left, right - 1)
       );
@@ -23,7 +23,7 @@ function validPalindrome(s) {
   return true;
 }
 
-// Example:
-console.log(validPalindrome("aba")); // true
-console.log(validPalindrome("abca")); // true (remove 'c')
-console.log(validPalindrome("abc")); // false
+
+console.log(validPalindrome("aba")); 
+console.log(validPalindrome("abca")); 
+console.log(validPalindrome("abc")); 

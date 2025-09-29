@@ -1,7 +1,7 @@
 function findMin(arr) {
-  let minVal = arr[0]; // O(1)
+  let minVal = arr[0]; 
   for (let i = 0; i < arr.length; i++) {
-    // O(n)
+    
     if (arr[i] < minVal) {
       minVal = arr[i];
     }
@@ -9,5 +9,5 @@ function findMin(arr) {
   return minVal;
 }
 
-// Example:
-console.log(findMin([3, 7, 2, 9, 5])); // 2
+
+console.log(findMin([3, 7, 2, 9, 5])); 

@@ -6,9 +6,9 @@ function subsequences(str) {
       result.push(curr);
       return;
     }
-    // include char
+ 
     helper(i + 1, curr + str[i]);
-    // exclude char
+    
     helper(i + 1, curr);
   }
 
@@ -17,4 +17,4 @@ function subsequences(str) {
 }
 
 console.log(subsequences("abc"));
-// ["abc", "ab", "ac", "a", "bc", "b", "c", ""]
+

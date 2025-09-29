@@ -13,7 +13,7 @@ function mergeSortedArrays(arr1, arr2) {
     }
   }
 
-  // Add remaining elements
+
   while (i < arr1.length) {
     merged.push(arr1[i]);
     i++;
@@ -27,5 +27,5 @@ function mergeSortedArrays(arr1, arr2) {
   return merged;
 }
 
-// Test
-console.log(mergeSortedArrays([1, 3, 5], [2, 4, 6])); // [1, 2, 3, 4, 5, 6]
+
+console.log(mergeSortedArrays([1, 3, 5], [2, 4, 6]));

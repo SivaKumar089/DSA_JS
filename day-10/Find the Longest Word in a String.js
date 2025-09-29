@@ -1,5 +1,5 @@
 function longestWord(sentence) {
-  let words = sentence.split(" "); // split by spaces
+  let words = sentence.split(" ");
   let longest = "";
 
   for (let word of words) {
@@ -11,6 +11,6 @@ function longestWord(sentence) {
   return longest;
 }
 
-// Example
+
 console.log(longestWord("Web development with JavaScript is powerful"));
-// Output: "development"
+

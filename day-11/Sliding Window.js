@@ -1,11 +1,11 @@
 function lengthOfLongestSubstring(s) {
-  let left = 0; // left side of window
+  let left = 0; 
   let maxLen = 0;
-  let seen = new Set(); // store characters in current window
+  let seen = new Set();
 
   for (let right = 0; right < s.length; right++) {
     while (seen.has(s[right])) {
-      // remove from left until duplicate is gone
+      
       seen.delete(s[left]);
       left++;
     }
@@ -16,9 +16,9 @@ function lengthOfLongestSubstring(s) {
   return maxLen;
 }
 
-// 🔍 Test
-console.log(lengthOfLongestSubstring("abcabcbb")); // 3
-console.log(lengthOfLongestSubstring("bbbbb")); // 1
-console.log(lengthOfLongestSubstring("pwwkew")); // 3
-console.log(lengthOfLongestSubstring("")); // 0
+
+console.log(lengthOfLongestSubstring("abcabcbb"));
+console.log(lengthOfLongestSubstring("bbbbb")); 
+console.log(lengthOfLongestSubstring("pwwkew"));
+console.log(lengthOfLongestSubstring("")); 
 

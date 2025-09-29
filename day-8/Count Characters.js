@@ -8,7 +8,7 @@ function countCharacters(str) {
   return map;
 }
 
-// Example
+
 const result = countCharacters("javascript");
 for (let [char, count] of result) {
   console.log(`${char}: ${count}`);

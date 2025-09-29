@@ -1,5 +1,5 @@
 function hasPairWithSumUnsorted(arr, target) {
-  arr.sort((a, b) => a - b); // sort ascending
+  arr.sort((a, b) => a - b);
   let left = 0,
     right = arr.length - 1;
 
@@ -12,4 +12,4 @@ function hasPairWithSumUnsorted(arr, target) {
   return false;
 }
 
-console.log(hasPairWithSumUnsorted([4, 2, 6, 1, 3], 6)); // true (2+4)
+console.log(hasPairWithSumUnsorted([4, 2, 6, 1, 3], 6));
